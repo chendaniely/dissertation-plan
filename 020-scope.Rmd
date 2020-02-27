@@ -1,0 +1,29 @@
+# Rough scope
+
+A rough scope for the lesson (questions taken from "Teaching Tech Together")
+
+1. What problems will people learn how to solve?
+  - Collect data so it can be easily transformed for analysis
+  - Generate reproducible analysis reports (figures, calculations, summary statistics, tables), even when the data changes
+  - Load data from Excel, SAS,  and CSV files.
+2. What concepts and techniques will people learn?
+  - Components of tidy data
+  - Loading datasets into R/Python
+  - Visualizing data, calculate summary statistics, generate tables into reports
+3. What technologies, packages, or functions will people use?
+4. What terms or jargon will you define?
+5. What analogies will you use to explain concepts?
+6. What mistakes or misconceptions do you expect?
+7. What datasets will you use?
+  - Ebola: https://github.com/cmrivers/ebola
+  - Zika: https://github.com/cdcepi/zika
+  - Coronavirus
+  - Census
+  - TCGA: https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga
+  - ICD codes: https://healthdata.gov/dataset/hospital-inpatient-diagnosis-procedure-and-external-cause-codes
+
+## What will learners do along the way?
+
+- Full descriptions of a couple of exercises that learners will do at the end of the lesson.
+- Fully explained exercises that use the skills people are to learn
+- Exercise outlines + complete solutions

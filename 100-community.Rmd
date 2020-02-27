@@ -1,0 +1,16 @@
+# Community of practice
+
+People cycle in and out.
+How does this dissertation project pave the way of building a community,
+such that it scales to multiple instructors, and grows with learner's needs.
+
+The Carpentries is only one way to keep a core set of materials up-to-date,
+but what about other semester long classes?
+
+At the university (Virginia Tech),
+there are already existing programs such as SAGE (statistics) and
+DataBridge (Library) that serve as a resource for researchers to get
+help with data work,
+
+- How do we take these data science meetup communities,
+and apply them to a undergraduate university setting?

@@ -1,0 +1,87 @@
+# Education
+
+## Bloom's taxonomy
+
+(Mary forehand, University of Georgia)
+
+| Old           | New           |
+|---------------+---------------|
+| Evaluate      | Creating      |
+| Synthesis     | Evaluating    |
+| Analysis      | Analyzing     |
+| Application   | Applying      |
+| Comprehension | Understanding |
+| Knowledge     | Remembering   |
+
+|                 | *Cognitive Process* |            |            |               |          |           |
+|-----------------+---------------------+------------+------------+---------------+----------+-----------|
+| *Knowledge*     | Remember            | Understand | Apply      | Analyze       | Evaluate | Create    |
+| Factual         | List                | Summarize  | Classify   | Order         | Rank     | Combine   |
+| Conceptual      | Describe            | Interpret  | Experiment | Explain       | Assess   | Plan      |
+| Procedural      | Tabulate            | Predict    | Calculate  | Differentiate | Conclude | Compose   |
+| Meta-cognitive | Appropriate Use     | Execute    | Construct  | Achieve       | Action   | Actualize |
+
+- **Remember**: arrange, define, describe, duplicate, identify, label, list, locate, name, recall, recite, recognize, reproduce, select, state
+- **Understand**: associate, classify, compare, contrast, describe, differentiate, discuss, exemplify, explain, infer, interpret, paraphrase, restate, summarize, translate
+- **Apply**: calculate, construct, demonstrate, develop, employ, estimate, examine, execute, formulate, implement, modify, sketch, solve, use
+- **Analyze**: break down, combine, compare, contrast, debate, diagram, examine, experiment, extrapolate, formulate, illustrate, organize, predict, question
+- **Evaluate**: appraise, argue, assess, check, conclude, critique, detect, judge, justify, monitor, rank, rate, recommend, select, test, weigh
+- **Create**: assemble, build, compose, construct, design, formulate, generate, integrate, produce, propose, rearrange, set up, transform
+
+## Learning Objectives
+
+1. Student centered
+2. Break down the task and focus on specific cognitive processes
+3. Use action verbs to focus on concrete actions and behaviors
+4. Measurable. e.g., state, solve, identify
+
+By the end of the course students should be able to:
+
+- "Design an experimental study, carry out an appropriate statistical analysis of the data, and properly interpret and communicate the analysis)" (decision sciences)
+- *name* the features of tidy (clean) dataset
+- *describe* when spreadsheets are useful
+- *assess* when a task should not be done in spreadsheet software
+- *construct* a plot and table for exploratory data analysis
+
+## Learner Personas
+
+### Personas
+
+Each persona should have
+
+1. The person's general background
+2. What they already know
+3. What they think they want to do
+4. Any special needs they have
+
+Main groups of students
+
+- Medical / osteopathic doctors
+- Nurses
+- MD PhD programs
+- Analysis hired to work in the medical field
+
+| Persona    | In Brief                                              | Domain    | Stats     | Programming | Data      | Example |
+|------------+-------------------------------------------------------+-----------+-----------+-------------+-----------+---------|
+| Academic   | Professor who needs to train students                 | expert    | competent | competent   | competent | Anne    |
+| Excel      | Researcher who primarily uses excel for analysis work | competent | novice    | novice      | novice    |         |
+| Generalist | Data scientist working in the hospital                | expert    | expert    | expert      | competent | Daniel  |
+| Librarian  | Data specialist to help with data needs               | competent | competent | novice      | expert    |         |
+| Newbie     | A medical student looking to get into research        | novice    | novice    | novice      | novice    |         |
+| Tech       | The system administrator for the hospital data        | expert    | novice    | expert      | expert    |         |
+| Researcher | RN PhD or MD PhD student                              | expert    | novice    | novice      | competent | Jackie  |
+| Leader     | Department head in charge of planning education       | expert    | novice    | novice      | novice    |         |
+
+Need: researcher who is domain(expert), stats(novice), programming(expert), data(competent)
+
+## Statistics methods
+
+Statistics methods used in research:
+
+- logistic regression
+- survival methods
+
+## Additional Skills
+
+- Redcap / survey data analysis
+- Role Excel can play in an analysis pipeline

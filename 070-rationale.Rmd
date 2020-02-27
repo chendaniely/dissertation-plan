@@ -1,0 +1,42 @@
+# Rationale
+
+## Medical education
+
+The curriculum is full.
+If we want to integrate new material into the these programs,
+we need to think long and hard about what needs to come out.
+
+From personal experience: throwing in programming labs is not effective,
+since it becomes a process of doing the bare minimum of getting the lab finished.
+
+### Existng adjacent classes
+
+Example 4 year medical and nursing program coursework.
+
+#### Nursing BSN
+
+- South Carolina (https://www.sc.edu/study/colleges_schools/nursing/academic_programs/bs_nursing/fall2014programinfo/sample_bsn_curriculum.php)
+  - Elementary statistics for the biological and life sciences
+  - Evidence-based Nursing Practice
+- U Pitt
+  - Nursing informatics
+  - Introduction to basic statistics for evidence-based practice
+
+## Workshops and higher education
+
+Can these skills be taught to students in masters or PhD programs?
+Or smaller workshops for working professionals.
+
+Nurses: NP programs, DrNP, and PhD programs
+
+Medical Doctors: 
+
+## Data science education
+
+### Data science education in medicine
+
+(See initial prospectus)
+
+#### Existing materials
+
+##### The Carpentries

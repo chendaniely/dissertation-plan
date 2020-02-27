@@ -1,0 +1,19 @@
+# Learning
+
+## Motivation
+
+## Develop mastery
+
+## Practice and Feedback
+
+busy professionals need to have focused and targeted practice to maximize the efficient use of time.
+minimize the amount of time misspent [hlw].
+"[s]tudents often need significantly more guidance and structure than we would expect in order to direct their efforts productively" [hlw]
+
+### Learnr + gradethis R packages
+
+software that allows for learning, practice, and feedback.
+These could be used to reduce the load on the instructor by providing a mechanism in the classroom to triage student help.
+Or can be provided as supplemental practice materials.
+
+## Self-directed learners

@@ -1,0 +1,152 @@
+# Core data knowledge
+
+## Excel
+
+
+Excel can be thought of as a GUI for data.
+You see the individual 
+
+Pro:
+
+- Spreadsheets are everywhere
+  - Has support for libreoffice https://help.libreoffice.org/6.2/en-US/text/sbasic/shared/vbasupport.html
+- VBA is relatively "easy" to learn
+
+Con:
+
+- Data is getting bigger, and it does not scale
+- Reproducible workflows require you to program
+- free online books and resources (need to check for this)
+- Inflexible, e.g., querying apis, social network analysis, gis
+
+More flexible programming languages grow with the user.
+
+- Load data
+- Do analysis
+- Connect to a database
+- Fit statistical models
+- Create and deploy dashboards
+- Create and deploy web artifacts (websites, blogs, books)
+- Hardware + software projects
+
+## Tidy data
+
+Need to formalize my own anecdotes and reflections from teaching into something more academic.
+Over the years while teaching half day workshops at conferences,
+I've completely shifted tidy data and functions to the very beginning of the materials needed in an intro class.
+This seems to be the most efficient use of workshop time when students have access to an instructor for questions,
+while covering the more complicated topics in data processing and programming.
+Many of the other skills in data cleaning,
+can be more easily picked up on their own by reading the documentation,
+or looking at examples.
+
+Tidy data principles (https://www.jstatsoft.org/article/view/v059i10) is fundamental to understanding data processing.
+Since a huge amount of effort is spent cleaning and processing data,
+understanding what makes data tidy,
+provides the roadmap on how to clean and process data for data exploration and analysis.
+
+This provides a framework for understanding how to collect data,
+and how to transform data collected in the field.
+If everyone on the team has an understanding on these principles,
+then transforming the shape of the data needed for collection, presentation, and analysis,
+can be easily done between all members in an analysis project.
+
+This helps the analyst understand why the data they got was in the shape its in,
+and helps the field worker understand why so much more time is needed to process data they collected,
+and smarter decisions can be made throughout the entire process.
+
+not only does tidy data principles provide a guide to how to clean data,
+it's the gateway to learn all the other required data science skills
+(e.g., plotting, applying functions, dealing with missing data, etc)
+
+This also separates the technical knowledge of working with software
+with the theoretical knowledge of cleaning data for analysis.
+Once the theory is understood,
+it can reduce the learning load needed to pick up the technical programming knowledge.
+
+Everything all stems from understanding tidy data.
+
+## Workflow managment
+
+### Naming things
+
+Jenny bryan probably has the clearest slide deck explaining how to name things:
+https://speakerdeck.com/jennybc/how-to-name-files
+
+- machine readable
+  - regular expression and globbing friendly
+    - avoid spaces, punctuation, accented characters, case sensitivity
+  - easy to compute on
+    - deliberate use of delimiters
+  - easy to search for files later
+  - easy to narrow file lists based on names
+  - easy to extract info from file names (e.g., by splitting)
+- human readable
+  - name contains info on content
+  - connects to concept of slug from semantic URLs
+- plays well with default ordering
+  - put something numeric first
+    - chronological order
+    - logical order
+  - ISO 8601 standard for dates
+  - left pad other numbers with zeros
+
+### Project templates/folder structures
+
+https://daniel.rbind.io/2017/05/30/project-templates/
+
+https://daniel.rbind.io/2018/01/23/analysis-based-project-templates/
+
+```
+project
+|
+|- data             # raw and primary data, are not changed once created
+|  |
+|  |- project_data  # subfolder that links to an encrypted data storage container
+|  |  |
+|  |  |- original   # raw data, will not be altered
+|  |  |- working    # intermediate datasets from src code
+|  +  +- final      # datasets used in analysis
+|
+|- src /            # any programmatic code
+|  |- user1         # user1 assigned to the project
+|  +- user2         # user2 assigned to the project
+|
+|- output           # all output and results from workflows and analyses
+|  |- figures/      # graphs, likely designated for manuscript figures
+|  |- pictures/     # diagrams, images, and other non-graph graphics
+|  +- analysis/     # generated reports for (e.g. rmarkdown output)
+|
+|- README.md        # the top level description of content
+|
+|- Makefile         # Makefile, if applicable
+|- .gitignore       # git ignore file
++- project.Rproj    # RStudio project
+```
+
+### Software
+
+R: https://github.com/r-lib/rprojroot, https://github.com/r-lib/here
+
+Python: https://github.com/chendaniely/pyprojroot
+
+## Learning how to program
+
+For data provenance.
+Doing all the processing in a GUI (Excel is a GUI for data processing),
+is not easily replicicatble.
+
+Excel is a GUI for data. and programming in excel is really programming the GUI,
+rather than working directly on the data.
+It adds an additional layer of complexity when you need to manipulate data,
+since you need to wrangle the GUI itself.
+
+There's already replication crisis in science.
+One could argue that the findings in medical research are more likely going to affect actual people.
+
+Flexibility for life: Languages like R any Python allow the user to learn what they
+need at the time while still providing the mechanisms to grow as their needs
+and skills grow.
+Many other tools have a hard point
+
+### Data literacy training for biomedical and health professionals

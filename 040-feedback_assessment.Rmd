@@ -1,0 +1,182 @@
+# Feedback and Assessment
+
+## Teaching evaluations
+
+(Taken from "Teaching Tech Together" and "How Learning Works")
+
+Rubric to assess teaching
+
+1. Opening: Exists, Length, Intro self, intro topics covered, describes prerequisites
+2. Content: clear goal/narrative arc; inclusive language; authentic tasts/examples;
+   Teaches best practices/idiomatic code; balances jargon and over-simplification
+3. Delivery: clear intelligible voice; rhythm and pacing; self-asssured
+4. Slides: I'm probably not going to use, may have written tutorial matierls for reference and future self learning
+   - Exist; slides and speech complement one another (dual coding); readable fonts and colors;
+     frequent change on screen; good use of graphics
+5. Live coding: used; code and speech complement one another (dual coding);
+   readable fonts and colors/right amount of code on the screen; proficient use of tools;
+   highlights key features of code; dissects errors
+6. Closing: exists; good lenth; summarizes key points; outlines next steps
+7. Overall: points clearly connected/logical flow; makethe topic interesting; knowledgeable
+
+## Student self-assessments
+
+- Means to gather feedback on students' prior knowledge and skills
+  - goal: get range of abilities and experiences for the class
+- Used to calibrate materials and/or provide supplemental materials
+- Help students focus on most important knowledge and skills addressed by the course
+
+- advantage: easy to construcy, score, adminster anonymously, low-anxiety for students
+- weakness: students may not accurately assess their abilities (usually people over estimate)
+
+- Assessments around why they are attending the class/workshop
+  - What do they plan to learn
+  - What are the types of questions they are trying to answer?
+
+- I want to collect data for a chart review and want to know what I should collect and how to format my data
+- I have data that I want to analyze, but do not know where to start
+
+### Example questions
+
+- How familiar are you with Excel?
+  a. I have never used it, or I have tried it but coun't really do anything with it.
+  b. I have used it as an electronic todo list and planner putting schedules and task deadlines in a single place
+  c. I've used it to store datasets and able to calculate basic aggregate values, such as mean
+  d. I've used data aggregation, pivot tables, formulas, and plotting feature to understand how my data breaks down.
+  e. I've coded up VBA macros and made VOOKUP calls integrating multiple sheets for a simulation task
+
+- How familar are you with a "t-test"?
+  a. I've never heard of it.
+  b. I have heard of it but don't remember what it is.
+  c. I have some idea of what it is, but am not too clear
+  d. I know what it is and could explain what it's for.
+  e. I know what it is and when to use it and could use it to analyze data.
+
+- How do you manage your data and analysis?
+  a. I don't do data and/or analysis work
+  b. My data and analysis are all in excel files, possibly with multiple sheets.
+  c. I work on carefully time-stamped excel files for my version control and analysis
+  d. I use some programming language to load in my data sets for analysis, but sometimes modify my orginal data files when cleaning the data
+  e. I hold my original data sacred, and only work on it from another program and save out intermediate and final data prodects as separate files
+  f. I have a very specific project strcture where data and analysis are kept in separate areas and have a version control system (e.g., Git, SVN)
+  g. I have version controled project templates along with build scripts (e.g., Makefile) to reproduce various aspects of the analysis
+
+- How familiar are you with interactie programming languages like Python or R
+  a. I do not know what those are
+  b. I have heard of them but have never used them before
+  c. I have installed it, but have only done simple examples with them
+  d. I have written a small program with them before
+  e. I use it to automate certain repetitive tasks
+  f. I have small side projects that I program in it
+  g. I program in them for work
+
+- Need question about tidy datasets
+  - how do you know a dataset is clean (enough)?
+
+## Pre/Post assessments
+
+This is different from formative/summative assessment
+
+- Gauge prior programming knowledge of participants for ds4med workshop.
+
+### Example questions
+
+1. Which of these best describes your experience with programming in general?
+  a. I have none.
+  b. I have written a few lines now and again.
+  c. I have written programs for my own use that are a couple of pages long.
+  d. I have written and maintained larger pieces of software.
+
+2. What of these best describes your experience with programming in Python/R?
+  a. I have none
+  b. I have written a few lines now and again.
+  c. I have written programs for my own use that are a couple of pages long.
+  d. I have written and maintained larger pieces of software.
+
+3. Which of these best describes how easily you could write a program in any languate to find the largest number in a list?
+  a. I wouldn't know where to start
+  b. I could struggle through by trial and error with a lot of web searches
+  c. I could do it quickly with little or no use of external help
+
+4. Which of these best describes how easily you could write a Python/R program to find and capitalize all of the titles in a web page?
+  a. I wouldn't know where to start
+  b. I could struggle through by trial and error with a lot of web searches
+  c. I could do it quickly with little or no use of external help
+
+5. What do you want to know or be able to do after this class that you don't know or can't do right now?
+
+## Long-term assessments
+
+- https://datacarpentry.org/blog/2017/03/long-term-assessment-strategy
+- https://carpentries.github.io/assessment/learner-assessment/archives/2017/code/longtermreport_October2017.html
+  - Establishing value is not just important for funding, it is also import for the community (volunteers percieve they are doing important work)
+  - Data Carpentry post-workshop survey results: respondents are "enthusiastically" or "very" involved in the workshops
+  - what impact workshops are having on learners' confidence in the skills they are taught
+  - goal is to have students describe concrete changes they had implemented to their research practices as a result of completing a Carpentries workshop.
+    - Do they have greater confidence in the tools they had been taught
+    - whether they had progressed in their careers as a result.
+    - multipl chose questions around progarmming in R and Python
+      - helped make the evidence of training efficacy more concrete, comparable and measurable
+      - taking it out of the realm of "opinion" or "feeling" for more robust/reliable markers
+  - results are self-reported
+    - respondents my exaggerate their achievements
+    - results affected by individual's state of mind
+    - Response rate higher among those who feel more positive
+    - Compared long-term survey results with post-workshop results
+  - https://github.com/carpentries/assessment
+
+### Questions to ask
+
+#### Workshop impact
+
+1. Reproduducible: I have made my analyses more reproducible as a result of completing the workshop
+2. Recognition: I have received professional recognition for my work as a result of using the tools I learned at teh workshop
+3. Productivity: My research productivity has improved as a result of completing the workshop
+4. Motivation: I have been motivated to seek more knowledge about the tools I learned at the workshop
+5. Confidence: I have gained conficdence in working with data as a result of completing the workshop
+6. Coding: I have improved my coding practices as a result of completing the workshop
+7. Career: I have used skills I learned at the workshop to advance my career
+
+From the Carpentries Long-term survery results, people post workshop seem to follow more FAIR principles
+
+#### Behaviours respondents adopted
+
+1. Using programming languages like R or Python, or the command line to automate repetitive tasks
+2. Improving dtaa management and project organization
+3. Using version control to manage code
+4. Resusing code
+5. Sharing code or data publicaly on places like GitHub or FigShare
+6. Using databases, scripts, and queries to manage large data sets
+7. Using version control to collaborate online (in public or private repositores)
+8. Transforming step-by-step workflows into scripts or functions
+9. Developing a data management and analysis plan
+
+#### Change in confidence
+
+Confidence helps build self-guided learning
+
+#### Useage of tools for research and/or work
+
+1. They are improving my overall efficiency
+2. They are imporoving my ability to analyze data
+3. They are improving my ability to manage data
+4. I am not using the tools I learned
+5. The tools I learned have not helped me with my work
+
+#### Contributions to academic writing
+
+Tools learned to contribute to academic writing (e.g., grant proposal, journal article).
+i.e., research dissemination
+
+#### Continuout learning
+
+What liearning activities they have participated in since attening workshop
+
+1. Used non-carpentry self-guided material
+2. used self-guided Carpentry lesson material
+3. Participated in an in-person short course
+4. Participated in an online short course
+5. Participated in a Meetup
+6. Participated in a semester long course
+
+The Journal of Open Source Education (JOSE): https://jose.theoj.org/about
