@@ -1,0 +1,14 @@
+# Learning Objectives
+
+. Student centered
+- Break down the task and focus on specific cognitive processes
+- Use action verbs to focus on concrete actions and behaviors
+- Measurable. e.g., state, solve, identify
+
+By the end of the course students should be able to:
+
+1. "Design an experimental study, carry out an appropriate statistical analysis of the data, and properly interpret and communicate the analysis)" (decision sciences)
+2. *name* the features of tidy (clean) dataset
+3. *describe* when spreadsheets are useful
+4. *assess* when a task should not be done in spreadsheet software
+5. *construct* a plot and table for exploratory data analysis
