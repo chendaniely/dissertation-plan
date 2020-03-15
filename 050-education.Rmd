@@ -27,3 +27,8 @@
 - **Analyze**: break down, combine, compare, contrast, debate, diagram, examine, experiment, extrapolate, formulate, illustrate, organize, predict, question
 - **Evaluate**: appraise, argue, assess, check, conclude, critique, detect, judge, justify, monitor, rank, rate, recommend, select, test, weigh
 - **Create**: assemble, build, compose, construct, design, formulate, generate, integrate, produce, propose, rearrange, set up, transform
+
+## COPUS
+
+The Classroom Observation Protocol for Undergraduate STEM (COPUS): A New Instrument to Characterize University STEM Classroom Practices
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3846513/

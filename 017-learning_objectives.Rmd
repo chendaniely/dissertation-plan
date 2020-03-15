@@ -1,14 +1,36 @@
 # Learning Objectives
 
-. Student centered
+- Student centered
 - Break down the task and focus on specific cognitive processes
 - Use action verbs to focus on concrete actions and behaviors
 - Measurable. e.g., state, solve, identify
 
 By the end of the course students should be able to:
 
-1. "Design an experimental study, carry out an appropriate statistical analysis of the data, and properly interpret and communicate the analysis)" (decision sciences)
-2. *name* the features of tidy (clean) dataset
-3. *describe* when spreadsheets are useful
-4. *assess* when a task should not be done in spreadsheet software
-5. *construct* a plot and table for exploratory data analysis
+1. **Name** the features of tidy (clean) dataset
+    - When students see a "dirty" dataset, they can identify what makes it "dirty"
+2. **Transform** data for analysis
+    - Identify and know what data manipulations are needed to clean a dataset
+        - data transformation to switch between wide/long data formats
+    - May touch on "functions"
+3. **Identify** when spreadsheets are useful
+    - Know what tools are better for certain tasks,
+      i.e., spreadsheets are useful for data entry
+4. **Assess** when a task should not be done in spreadsheet software
+    - Similar to previous LO, but more specific, e.g.,
+        - non-data elements: colors, side calculations, multiple tables on same sheet
+        - planning for future data processing while doing data entry
+        - processing data within a spreadsheet while also adding data
+        - do not modify original data sets
+5. **Break down** data processing into smaller individual (and more manageable) steps
+    - Think about what data could be used to answer a question
+    - Collect multiple datasets
+    - Combine multiple datasets
+    - Clean dataset
+6. **Construct** a plot and table for exploratory data analysis
+    - Use the R/Python programming tools to make figures, calculations, summary statistics
+7. **Build** a data processing pipeline that can be used in other programs
+    - Get data ready for another program, e.g., Tableau (visualization), SPSS (statistics), Arc GIS (GIS), etc
+    - This way some of the data processing steps are reproducible
+    - Project templates
+8. "**Design** an experimental study, carry out an appropriate statistical analysis of the data, and properly interpret and communicate the analysis)" (decision sciences taken from "How learning works")

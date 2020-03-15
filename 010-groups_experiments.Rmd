@@ -9,8 +9,7 @@
     2. [Roanoke Higher Education Center](https://www.education.edu/)
         - Fall 2020: Healthcare workshop series (n = 9)
 2. Workshop attendees where the main population of learners are students (undergraduate/graduate)
-    1. Undergraduate/graduate Carpentries-inspired class
-        - Fall 2020
+    1. Fall 2020: Undergraduate/graduate Carpentries-inspired class
     2. Students from small modules taught as a part of a university course
 
 
@@ -23,7 +22,7 @@
 
 What is my actual research question?
 
-1. What are the hurdles biomedical/medical professionals have
+1. What are the hurdles biomedical/medical/health professionals have
   with regards to using data for decision making and/or research?
     - Approach this problem from "first principles"
         - They have a question but do not know how to get the data needed
@@ -35,15 +34,17 @@ What is my actual research question?
 
 These need to be targeted towards learning objectives.
 
-1. Hypothesis: In-person workshops will help medical professionals curate better for research
-2. Hypothesis: In-person workshops will help medical professionals work with data outside of a spreadsheet program
-3. Hypothesis: Workshops with an eye towards tidy data principles will better transition students out of a spreadsheet program into programming
-4. Hypothesis: Learning how to program data analysis will allow learners to feel like they can do more with their data
+1. Creating learner personas will create better educational content because they will be more tailored to the needs of the students
+1. Learning how to program data analysis will allow learners to feel like they can do more with their data (the main goal)
+2. Learning basic data literacy and data science skills can empower health workers and be more proactive in making more educated decisions
+3. Workshops with an eye towards tidy data principles will better transition students out of a spreadsheet program into programming
+4. In-person workshops will help medical professionals curate better data for research
+5. In-person workshops will help medical professionals work with data outside of a spreadsheet program
 
 ## Approach
 
 1. Create learner personas
-    1. identifying learning objectives
+    1. Identify learning objectives
     2. Assessments
         - This will identify whether learning objectives are met
         - Will provide concrete examples and data for personas, so they do not become a list of sterotypes

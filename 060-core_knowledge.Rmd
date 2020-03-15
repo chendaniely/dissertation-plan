@@ -150,3 +150,17 @@ and skills grow.
 Many other tools have a hard point
 
 ### Data literacy training for biomedical and health professionals
+
+## Domain specific skills
+
+### Statistics methods
+
+Statistics methods used in research:
+
+- logistic regression
+- survival methods
+
+### Additional Skills
+
+- Redcap / survey data analysis
+- Role Excel can play in an analysis pipeline

@@ -1,24 +1,5 @@
 # Feedback and Assessment
 
-## Teaching evaluations
-
-(Taken from "Teaching Tech Together" and "How Learning Works")
-
-Rubric to assess teaching
-
-1. Opening: Exists, Length, Intro self, intro topics covered, describes prerequisites
-2. Content: clear goal/narrative arc; inclusive language; authentic tasts/examples;
-   Teaches best practices/idiomatic code; balances jargon and over-simplification
-3. Delivery: clear intelligible voice; rhythm and pacing; self-asssured
-4. Slides: I'm probably not going to use, may have written tutorial matierls for reference and future self learning
-   - Exist; slides and speech complement one another (dual coding); readable fonts and colors;
-     frequent change on screen; good use of graphics
-5. Live coding: used; code and speech complement one another (dual coding);
-   readable fonts and colors/right amount of code on the screen; proficient use of tools;
-   highlights key features of code; dissects errors
-6. Closing: exists; good lenth; summarizes key points; outlines next steps
-7. Overall: points clearly connected/logical flow; makethe topic interesting; knowledgeable
-
 ## Student self-assessments
 
 - Means to gather feedback on students' prior knowledge and skills
@@ -26,7 +7,7 @@ Rubric to assess teaching
 - Used to calibrate materials and/or provide supplemental materials
 - Help students focus on most important knowledge and skills addressed by the course
 
-- advantage: easy to construcy, score, adminster anonymously, low-anxiety for students
+- advantage: easy to construct, score, administer anonymously, low-anxiety for students
 - weakness: students may not accurately assess their abilities (usually people over estimate)
 
 - Assessments around why they are attending the class/workshop
@@ -36,16 +17,36 @@ Rubric to assess teaching
 - I want to collect data for a chart review and want to know what I should collect and how to format my data
 - I have data that I want to analyze, but do not know where to start
 
-### Example questions
+### Questions
 
 - How familiar are you with Excel?
-  a. I have never used it, or I have tried it but coun't really do anything with it.
+  a. I have never used it, or I have tried it but can't really do anything with it.
   b. I have used it as an electronic todo list and planner putting schedules and task deadlines in a single place
-  c. I've used it to store datasets and able to calculate basic aggregate values, such as mean
+  c. I've used it to store datasets and able to calculate basic aggregate values, such as mean and sums
   d. I've used data aggregation, pivot tables, formulas, and plotting feature to understand how my data breaks down.
   e. I've coded up VBA macros and made VOOKUP calls integrating multiple sheets for a simulation task
 
-- How familar are you with a "t-test"?
+- Are you familiar with the term "tidy data"?
+  a. I have never heard of the term
+  b. I have heard of it but don't remember what it is.
+  c. I have some idea of what it is, but am not too clear
+  d. I know what it is and could explain what it pertains to
+
+- Do you know what are common data issues that need to be performed in order to "clean" it?
+  - This may be too specific of a question...
+
+- Do you know what "long" and "wide" data are?
+  a. I have never heard of the term
+  b. I have heard of it but don't remember what it is.
+  c. I have some idea of what it is, but am not too clear
+  d. I know what it is and could explain what it pertains to
+
+- If you were given a dataset (e.g., Excel file, CSV file) and asked to do some preliminary analysis on it, which of these best describe how easily you can accomplish the task?
+  a. I wouldn't know where to start
+  b. I could struggle through by rial and error with a lot of web searches
+  c. I could do it quickly with little or no use of external help
+
+- How familiar are you with a "t-test"?
   a. I've never heard of it.
   b. I have heard of it but don't remember what it is.
   c. I have some idea of what it is, but am not too clear
@@ -56,12 +57,18 @@ Rubric to assess teaching
   a. I don't do data and/or analysis work
   b. My data and analysis are all in excel files, possibly with multiple sheets.
   c. I work on carefully time-stamped excel files for my version control and analysis
-  d. I use some programming language to load in my data sets for analysis, but sometimes modify my orginal data files when cleaning the data
-  e. I hold my original data sacred, and only work on it from another program and save out intermediate and final data prodects as separate files
-  f. I have a very specific project strcture where data and analysis are kept in separate areas and have a version control system (e.g., Git, SVN)
-  g. I have version controled project templates along with build scripts (e.g., Makefile) to reproduce various aspects of the analysis
+  d. I use some programming language to load in my data sets for analysis, but sometimes modify my original data files when cleaning the data
+  e. I hold my original data sacred, and only work on it from another program and save out intermediate and final data projects as separate files
+  f. I have a very specific project structure where data and analysis are kept in separate areas and have a version control system (e.g., Git, SVN)
+  g. I have version controlled project templates along with build scripts (e.g., Makefile) to reproduce various aspects of the analysis
 
-- How familiar are you with interactie programming languages like Python or R
+- Which of these best describes your experience with programming in general? (from TTT)
+  a. I have none
+  b. I have written a few lines now and again
+  c. I have written programs for my own use that are a couple of pages long
+  d. I have written and maintained larger pieces of software
+
+- How familiar are you with interactive programming languages like Python or R
   a. I do not know what those are
   b. I have heard of them but have never used them before
   c. I have installed it, but have only done simple examples with them
@@ -70,8 +77,13 @@ Rubric to assess teaching
   f. I have small side projects that I program in it
   g. I program in them for work
 
-- Need question about tidy datasets
-  - how do you know a dataset is clean (enough)?
+- Which of these best describes how easily you could write a program (in any language) to find the largest number in a list? (from TTT)
+  a. I wouldn't know where to start
+  b. I could struggle through by rial and error with a lot of web searches
+  c. I could do it quickly with little or no use of external help
+  
+- What do you want to know or be able to do after this clas that you don't know or can't do right now? (TTT)
+  - Open ended question
 
 ## Pre/Post assessments
 
@@ -180,3 +192,22 @@ What liearning activities they have participated in since attening workshop
 6. Participated in a semester long course
 
 The Journal of Open Source Education (JOSE): https://jose.theoj.org/about
+
+## Teaching evaluations
+
+(Taken from "Teaching Tech Together" and "How Learning Works")
+
+Rubric to assess teaching
+
+1. Opening: Exists, Length, Intro self, intro topics covered, describes prerequisites
+2. Content: clear goal/narrative arc; inclusive language; authentic tasts/examples;
+   Teaches best practices/idiomatic code; balances jargon and over-simplification
+3. Delivery: clear intelligible voice; rhythm and pacing; self-asssured
+4. Slides: I'm probably not going to use, may have written tutorial matierls for reference and future self learning
+   - Exist; slides and speech complement one another (dual coding); readable fonts and colors;
+     frequent change on screen; good use of graphics
+5. Live coding: used; code and speech complement one another (dual coding);
+   readable fonts and colors/right amount of code on the screen; proficient use of tools;
+   highlights key features of code; dissects errors
+6. Closing: exists; good lenth; summarizes key points; outlines next steps
+7. Overall: points clearly connected/logical flow; makethe topic interesting; knowledgeable
