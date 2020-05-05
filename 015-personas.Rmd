@@ -122,7 +122,7 @@ Hurdles
 
 3. Eric knows there are better ways to do what he’s doing,
   but feels overwhelmed by the blog posts, tweets, and “helpful” recommendations
-  from his collegues.
+  from his colleagues
 
 4. Eric is a single parent; the one evening a week he spends teaching is the only out-of-work time he’s able to take away from family responsibilities.
 
@@ -185,7 +185,7 @@ Needs
 
 ### Tech
 
-1. Toshi does tech support and systems adminstration at the hospital with over 1000 staff.
+1. Toshi does tech support and systems administration at the hospital with over 1000 staff.
    While others on his team take care of resetting passwords, he debugs setup issues and figures out why the dashboard is displaying nonsense.
    (It’s usually something to do with date formatting.)
    He often winds up writing bits of code from Stack Overflow to glue things together.
