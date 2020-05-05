@@ -1,6 +1,58 @@
 # Feedback and Assessment
 
+Adapted from The Carpentries, Teaching Tech Together, and How Learning Works
+
+- https://carpentries.org/assessment/
+- https://carpentries.github.io/assessment/
+- https://software-carpentry.org/files/bib/aranda-assessment-2012-07.pdf
+
+## IRB
+ch
+An IRB will be needed to use attendee responses for data:
+
+- https://carpentries.org/files/assessment/Data_Carpentry_IRB_for_workshops.pdf
+
+## Demographic information
+
+- student unique identifiers: Number of siblings (as numeric) + First two letters of the city you were born in (lowercase) + First three letters of your current street (lowercase)
+- relevant field or discipline
+    - medicine
+    - biological sciences
+    - biomedical sciences
+    - health sciences
+- What is your current occupation/career stage
+    - DO/MD
+    - RN/PA
+    - Student (MPH, ...)
+    - Academic
+    - Analyst
+- What operating system is on the computer you are using at the workshop?
+    - macOS
+    - Linux
+    - Windows
+    - Not sure
+- To which gender do you most identify?
+    - Female
+    - Gender variant/non-conforming
+    - Male
+    - Prefer not to say
+- How would you describe yourself? Choose one or more of the following groups.
+    - American Indian or Alaska Native (Having origins in any of the original peoples of North and South America (including Central America), and who maintains a tribal affiliation or community attachment.)
+    - Asian (Having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, Indonesia, the Philippine Islands, Thailand, and Vietnam.)
+    - Black or African American (Having origins in any of the Black racial groups of Africa – includes Caribbean Islanders and others of African origin.)
+    - Hispanic or Latino(a) (A person of Spanish-speaking origin or ancestry and/or Latin American origin or ancestry – includes Portuguese and Brazilians.)
+    - Native Hawaiian or Other Pacific Islander (Having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.)
+    - White (Having origins in any of the original peoples of Europe, the Middle East, or North Africa.)
+    - I prefer not to say.
+
+
 ## Student self-assessments
+
+These are pre-workshop assessments used to gauge the distribution of personas
+that will potentially attend a workshop.
+It's goal is to help classify each student into one of the learner personas.
+It helps the instructor prepare and cater towards the lesson,
+and also helps students 
 
 - Means to gather feedback on students' prior knowledge and skills
   - goal: get range of abilities and experiences for the class
@@ -17,56 +69,37 @@
 - I want to collect data for a chart review and want to know what I should collect and how to format my data
 - I have data that I want to analyze, but do not know where to start
 
-### Questions
 
-- How familiar are you with Excel?
-  a. I have never used it, or I have tried it but can't really do anything with it.
-  b. I have used it as an electronic todo list and planner putting schedules and task deadlines in a single place
-  c. I've used it to store datasets and able to calculate basic aggregate values, such as mean and sums
-  d. I've used data aggregation, pivot tables, formulas, and plotting feature to understand how my data breaks down.
-  e. I've coded up VBA macros and made VOOKUP calls integrating multiple sheets for a simulation task
+### Programming experience
 
-- Are you familiar with the term "tidy data"?
-  a. I have never heard of the term
-  b. I have heard of it but don't remember what it is.
-  c. I have some idea of what it is, but am not too clear
-  d. I know what it is and could explain what it pertains to
-
-- Do you know what are common data issues that need to be performed in order to "clean" it?
-  - This may be too specific of a question...
-
-- Do you know what "long" and "wide" data are?
-  a. I have never heard of the term
-  b. I have heard of it but don't remember what it is.
-  c. I have some idea of what it is, but am not too clear
-  d. I know what it is and could explain what it pertains to
-
-- If you were given a dataset (e.g., Excel file, CSV file) and asked to do some preliminary analysis on it, which of these best describe how easily you can accomplish the task?
-  a. I wouldn't know where to start
-  b. I could struggle through by rial and error with a lot of web searches
-  c. I could do it quickly with little or no use of external help
-
-- How familiar are you with a "t-test"?
-  a. I've never heard of it.
-  b. I have heard of it but don't remember what it is.
-  c. I have some idea of what it is, but am not too clear
-  d. I know what it is and could explain what it's for.
-  e. I know what it is and when to use it and could use it to analyze data.
-
-- How do you manage your data and analysis?
-  a. I don't do data and/or analysis work
-  b. My data and analysis are all in excel files, possibly with multiple sheets.
-  c. I work on carefully time-stamped excel files for my version control and analysis
-  d. I use some programming language to load in my data sets for analysis, but sometimes modify my original data files when cleaning the data
-  e. I hold my original data sacred, and only work on it from another program and save out intermediate and final data projects as separate files
-  f. I have a very specific project structure where data and analysis are kept in separate areas and have a version control system (e.g., Git, SVN)
-  g. I have version controlled project templates along with build scripts (e.g., Makefile) to reproduce various aspects of the analysis
+Rationale: Do they know how to program? What is their experience with programming?
+Technical classes usually end up with a bi-modal distribution,
+so this also provides a means for the instructor to
 
 - Which of these best describes your experience with programming in general? (from TTT)
   a. I have none
   b. I have written a few lines now and again
   c. I have written programs for my own use that are a couple of pages long
   d. I have written and maintained larger pieces of software
+
+- How often do you currently use A specialized software with a point-and-click graphical user interface
+(e.g., for statistical analysis: SPSS, SAS, …;
+for Geospatial analysis: ArcGIS, QGIS, … ;
+for Genomics analysis: Geneious, ...)
+  a. Never
+  b. Less than once per year
+  c. Several times per year
+  d. Monthly
+  e. Weekly
+  f. Daily
+
+- How often do you currently use Programming languages (R, Python, etc.)
+  a. Never
+  b. Less than once per year
+  c. Several times per year
+  d. Monthly
+  e. Weekly
+  f. Daily
 
 - How familiar are you with interactive programming languages like Python or R
   a. I do not know what those are
@@ -81,8 +114,119 @@
   a. I wouldn't know where to start
   b. I could struggle through by rial and error with a lot of web searches
   c. I could do it quickly with little or no use of external help
-  
-- What do you want to know or be able to do after this clas that you don't know or can't do right now? (TTT)
+
+- How often do you currently use Databases (SQL, Access, etc.)
+  a. Never
+  b. Less than once per year
+  c. Several times per year
+  d. Monthly
+  e. Weekly
+  f. Daily
+
+- How often do you currently use Version control software (Git, Subversion (SVN), Mercurial, etc.)
+  a. Never
+  b. Less than once per year
+  c. Several times per year
+  d. Monthly
+  e. Weekly
+  f. Daily
+
+- How often do you currently use A command shell (usually accessed through Terminal on macOS or PowerShell on Windows)
+  a. Never
+  b. Less than once per year
+  c. Several times per year
+  d. Monthly
+  e. Weekly
+  f. Daily
+
+### Clearning and processing data
+
+- How familiar are you with Excel?
+  - Rationale: Assuming that if attendees have not used a programming language before for analysis, they've used spreadsheets
+  a. I have never used it, or I have tried it but can't really do anything with it.
+  b. I have used it as an electronic todo list and planner putting schedules and task deadlines in a single place
+  c. I've used it to store datasets and able to calculate basic aggregate values, such as mean and sums
+  d. I've used data aggregation, pivot tables, formulas, and plotting feature to understand how my data breaks down.
+  e. I've coded up VBA macros and made VOOKUP calls integrating multiple sheets for a simulation task
+
+- If you were given a dataset (e.g., Excel file, CSV file) and asked to do some preliminary analysis on it, which of these best describe how easily you can accomplish the task?
+  - Rationale: Have they worked with data before? Do they know about struggles working with data.
+  a. I wouldn't know where to start
+  b. I could struggle through by rial and error with a lot of web searches
+  c. I could do it quickly with little or no use of external help
+
+- Are you familiar with the term "tidy data"?
+  - Rationale: Do they know what "clean" data means? or how to process "dirty" datasets
+  a. I have never heard of the term
+  b. I have heard of it but don't remember what it is.
+  c. I have some idea of what it is, but am not too clear
+  d. I know what it is and could explain what it pertains to
+
+- Do you know what "long" and "wide" data are?
+  - Ratonale: if they're familiar with working with databases or pivoting data
+  a. I have never heard of the term
+  b. I have heard of it but don't remember what it is.
+  c. I have some idea of what it is, but am not too clear
+  d. I know what it is and could explain what it pertains to
+
+### Data and project management
+
+- Please rate your level of satisfaction with your current data management and analysis workflow (i.e. how you collect, organize, store and analyze your data).
+  a. Very unsatisfied
+  b. Unsatisfied
+  c. Neutral
+  d. Satisfied
+  e. Very satisfied
+  f. Not sure
+  g. Not applicable
+  h. Never thought about this
+
+- How do you manage your data and analysis?
+  - Rationale: How do they manage work for 
+  a. I don't do data and/or analysis work
+  b. My data and analysis are all in excel files, possibly with multiple sheets.
+  c. I work on carefully time-stamped excel files for my version control and analysis
+  d. I use some programming language to load in my data sets for analysis, but sometimes modify my original data files when cleaning the data
+  e. I hold my original data sacred, and only work on it from another program and save out intermediate and final data projects as separate files
+  f. I have a very specific project structure where data and analysis are kept in separate areas and have a version control system (e.g., Git, SVN)
+  g. I have version controlled project templates along with build scripts (e.g., Makefile) to reproduce various aspects of the analysis
+
+
+- Why are you participating in this workshop?
+  a. To learn new skills.
+  b. To refresh or review my skills.
+  c. To learn skills that I can apply to my current work.
+  d. To learn skills that I can apply to my work in the future.
+  e. To learn skills that will help me get a job or a promotion.
+  f. As a requirement for my program or current position.
+
+### Statistics
+
+- How familiar are you with a "t-test"?
+  - Ratonale: Usually the first statistical test learned
+  a. I've never heard of it.
+  b. I have heard of it but don't remember what it is.
+  c. I have some idea of what it is, but am not too clear
+  d. I know what it is and could explain what it's for.
+  e. I know what it is and when to use it and could use it to analyze data.
+
+### Likert
+
+Please rate your level of agreement with the following statements
+
+- (data) Having access to the original, raw data is important to be able to repeat an analysis.
+- (programming) I can write a small program, script, or macro to address a problem in my own work.
+- (programming) I know how to search for answers to my technical questions online.
+- (programming) While working on a programming project, if I got stuck, I can find ways of overcoming the problem.
+- (programming) I am confident in my ability to make use of programming software to work with data.
+- (programming) Using a programming language (like R or Python) can make my analyses easier to reproduce.
+- (programming) Using a programming language (like R or Python) can make me more efficient at working with data.
+
+### Open Response
+
+- Please share what you most hope to learn from participating in this workshop.
+
+- What do you want to know or be able to do after this class that you don't know or can't do right now? (TTT)
   - Open ended question
 
 ## Pre/Post assessments
@@ -105,7 +249,7 @@ This is different from formative/summative assessment
   c. I have written programs for my own use that are a couple of pages long.
   d. I have written and maintained larger pieces of software.
 
-3. Which of these best describes how easily you could write a program in any languate to find the largest number in a list?
+3. Which of these best describes how easily you could write a program in any language to find the largest number in a list?
   a. I wouldn't know where to start
   b. I could struggle through by trial and error with a lot of web searches
   c. I could do it quickly with little or no use of external help
@@ -180,9 +324,9 @@ Confidence helps build self-guided learning
 Tools learned to contribute to academic writing (e.g., grant proposal, journal article).
 i.e., research dissemination
 
-#### Continuout learning
+#### Continuting learning
 
-What liearning activities they have participated in since attening workshop
+What learning activities they have participated in since attending workshop
 
 1. Used non-carpentry self-guided material
 2. used self-guided Carpentry lesson material
