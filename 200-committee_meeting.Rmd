@@ -166,11 +166,11 @@ Learning objectives:
 
 Snowball sample from relavant listservs on campus
 
-1. Dennie -- igep
-2. Taryn (taryn1@vtc.vt.edu) -- fbri + iThriv
+1. Dennie Munson -- igep
+2. Taryn Luoma (taryn1@vtc.vt.edu) -- fbri + iThriv
 3. Nathaniel Porter (ndporter@vt.edu) -- swc tmbh students (n=3?)
 4. Andrea Green (greena15@exchange.vt.edu) vetmed
-5. Hannah (hmenefee@vt.edu) -- mph
+5. Hannah Menefee (hmenefee@vt.edu) -- mph
 
 ### Preliminary results
 
@@ -181,7 +181,7 @@ Snowball sample from relavant listservs on campus
 ![](./images/results/likert.png)
 
 1. **A LOT** of Excel
-    - Very basic useage
+    - Very basic usage
     - Do not use other specialized software for tasks, mainly just Excel
 2. No knowledge of "tidy data"
     - Fundamental to processing and cleaning data
@@ -231,8 +231,13 @@ Need to re-confirm:
 
 Other people:
 
+![](./images/people/dennis_kafura.jpg){height=100px}
 1. Dennis Kafura - Computer Science - Computer science education
+
+![](./images/people/margaret_ellis.jpg){height=100px}
 2. Margaret Ellis - Computer Science - Digital education
+
+![](./images/people/jane_robertson_evia.jpg){height=100px}
 3. Jane Robertson Evia - Statistics - Statistics education
 
 ![](./images/people/nikki_lewis.jpg){height=100px}
@@ -247,7 +252,7 @@ Other people:
 
 - "Integrating scientific programming in communities of practice for students in life science"
     - https://dl.acm.org/doi/10.1145/3332186.3333040
-    
+    - People in the life sciences are afraid to take courses in CS and Stats
 
 - Help augment the training from Center for Biostatistics and Health Data Science (CBHDS)
     - https://biostat.centers.vt.edu/
