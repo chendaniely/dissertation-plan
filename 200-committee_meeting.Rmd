@@ -4,13 +4,17 @@
 
 ### Introduction
 
+![](./images/cu_msph_logo.webp){height=100px}
+
 - MPH in Epidemiology, Columbia University, 2014
     - Thesis: Agent-based models
-        - Computational psychology: looked at the spread of ideas in a social network
-        - Adviser: Mark Orr, Columbia--> Virginia Tech (SDAL)
+        - Computational psychology: spread of ideas in a social network
     - Took my first data science class
         - Rachel Schutt, Kayur Patel, Jared Lander
         - Software-Carpentry workshop attendee
+    - Adviser: Mark Orr, Columbia--> Virginia Tech (SDAL)
+
+![](./images/gbcb_logo.png){height=100px}
 
 - PhD Student in Genetics, Bioinformatics, and Computational Biology (GBCB)
     - https://gbcb.graduateschool.vt.edu/
@@ -33,6 +37,12 @@
         - https://chendaniely.github.io/training_ds_r/
     - Biocomplexity Institute VT -> UVA
 
+
+![](./images/software_carpentry_logo.svg){height=100px}
+![](./images/data_carpentry_logo.svg){height=100px}
+![](./images/library_carpentry_logo.svg){height=100px}
+![](./images/carpentries_logo.svg){height=100px}
+
 - Software-Carpentry
     - Non-profit organization aimed to teach researchers the programming skills they need for research
     - Co-founded by Greg Wilson
@@ -41,12 +51,16 @@
     - All my technical teaching experience was from the workshops I taught
     - Software-Carpentry + Data Carpentry + Library Carpentry = The Carpentries
 
+![](./images/pfd_book.jpg){height=100px}
+
 - Building off the Carpentries
     - Authored "Pandas for Everyone"
     - Pearson liveLessons
         - Python and Git
     - DataCamp classes (but we don't talk about those)
-        - tl;dr https://twitter.com/johncassil/status/1278685420595920897
+        - tl;dr: https://twitter.com/johncassil/status/1278685420595920897
+
+![](./images/rstudio_logo.png){height=100px}
 
 - RStudio Intern Summer 2019
     - RStudio Education team
@@ -62,11 +76,44 @@
     - Healthcare/medicine
     - Andi Ogier, Director Data Services -> Anne Brown
     - Anne Brown is a recent GBCB faculty member
-    
+
+#### Anne Brown
+
+- Brown Experential Learning
+
+![](./images/bbl_logo1.png){height=100px}
+
+- Bevan Brown Lab: https://bevanbrownlab.com/
+
+![](./images/db_logo1.png){height=100px}
+![](./images/db_logo2.png){height=100px}
+![](./images/db_logo3.png){height=100px}
+![](./images/db_logo4.png){height=100px}
+
+- DataBridge: https://www.databridge.dev/
+
+- Officially part of the Library
+- Affiliate in Biochemistry 
+- Academy of Integrated Sciences
+    - https://www.ais.science.vt.edu/
+    - Majors: Computational Modeling and Data Analytics (CMDA), Nanoscience, and Systems Biology
+    - Minors: Data and Decisions, Integrated Science Curriculum, Science, Technology, & Law
+
+- David Bevan was her mentor and created the GBCB program
+- Expertise in conceptualizing pedagogical studies
+- Invested in Data Education
+
+- VT Libraries
+    - Commitment with/to the Carpentries
+    - Open@VT (https://blogs.lt.vt.edu/openvt/)
+
 ### Deliverables
 
+![](./images/cc-by.png){height=100px}
+![](./images/cc-zero.png){height=100px}
+
 1. Identify and create learner personas for the biomedical community
-2. Create a set of CC-BY lessons for the biomedical community
+2. Create a set of CC-0 lessons for the biomedical community
     - Carpentries-inspired
     - Carpenties Incubator: Data Science for Practicing Clinicians
         - https://carpentries-incubator.github.io/Data-Science-for-Docs/
@@ -131,6 +178,8 @@ Snowball sample from relavant listservs on campus
 
 **TODO INSERT FIGURES**
 
+![](./images/results/likert.png)
+
 1. **A LOT** of Excel
     - Very basic useage
     - Do not use other specialized software for tasks, mainly just Excel
@@ -139,9 +188,25 @@ Snowball sample from relavant listservs on campus
 
 #### Personas
 
+![](./images/results/dendogram.png)
+
 - Dendogram shows 3 or 5 groups
 - Groups in sequential order is suspicious
     - Seems to be from when the surveys were sent out to the listservs
+
+#### Creating Personas
+
+- Through the Eyes of Faculty: Using Personas as a Tool for Learner-Centered Professional Development
+    - https://www.lifescied.org/doi/10.1187/cbe.19-06-0114
+    
+- methods that combine hierarchical agglomerative cluster analysis with chi-square values or squared Euclidian distance values and complete or average linkage
+
+![](https://www.lifescied.org/cms/10.1187/cbe.19-06-0114/asset/images/medium/cbe-18-ar62-g001.gif)
+
+- RStudio learner Personas
+    - https://rstudio-education.github.io/learner-personas/
+    
+![](./images/rstudio_learner_personas.png)
 
 ### Paper topics
 
@@ -153,11 +218,15 @@ Snowball sample from relavant listservs on campus
 
 Currently:
 
+![](./images/people/anne_brown.jpg){height=100px}
 1. Anne Brown - Library
+
+![](./images/people/alex_hanlon.png){height=100px}
 2. Alex Hanlan - Biostatistics
 
 Need to re-confirm:
 
+![](./images/people/dave_higdon.jpg){height=100px}
 3. Dave Higdon - Statistics
 
 Other people:
@@ -165,12 +234,20 @@ Other people:
 1. Dennis Kafura - Computer Science - Computer science education
 2. Margaret Ellis - Computer Science - Digital education
 3. Jane Robertson Evia - Statistics - Statistics education
+
+![](./images/people/nikki_lewis.jpg){height=100px}
 4. Nikki Lewis - Honors College
+
+![](./images/people/amy_nelson.jpg){height=100px}
 5. Amy Nelson - History - Pedagogical Practices in Contemporary Contexts
     - Future Professoriate Certificate
 
 
 ### Overall impact
+
+- "Integrating scientific programming in communities of practice for students in life science"
+    - https://dl.acm.org/doi/10.1145/3332186.3333040
+    
 
 - Help augment the training from Center for Biostatistics and Health Data Science (CBHDS)
     - https://biostat.centers.vt.edu/
@@ -182,3 +259,7 @@ Other people:
     - VT has a core group of Carpentries certified instructors
         - Anne is just about finishing up her checkout
 - Build a community of practice
+    - "Building a local community of practice in scientific programming for life scientists"
+        - https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005561
+    - "If you build it, they will come...but then what? Facilitating communities of practice in R"
+        - https://rstudio.com/resources/rstudioconf-2020/if-you-build-it-they-will-come-but-then-what-facilitating-communities-of-practice-in-r/
