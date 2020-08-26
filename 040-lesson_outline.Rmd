@@ -1,6 +1,0 @@
-# Lesson Outline
-
-Outline the lesson first, then write overview
-
-- Outline: order of exercises, 1 hour blocks, formative assessment
-- Overview: description, learning objectives, summary of prerequisites
