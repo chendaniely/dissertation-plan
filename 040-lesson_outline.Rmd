@@ -1,0 +1,95 @@
+# Lesson Outline
+
+[![hackmd-github-sync-badge](https://hackmd.io/9YWHgogHS-a8SL24-vu28w/badge)](https://hackmd.io/9YWHgogHS-a8SL24-vu28w)
+
+Outline the lesson first, then write overview
+
+- Outline: order of exercises, 1 hour blocks, formative assessment
+- Overview: description, learning objectives, summary of prerequisites
+- Dissertation notes
+    - First 4 modules will cover 4 hours worth of time
+      - Pre/Post surveys + long-term assessment will be used for these materials
+    - The other modules can either be used for additional workshop blocks
+      or extended self learning
+      - These materials will be written to make a more "complete" set of lessons
+      - Learning and study groups to help build the community of practice
+      - Extra materials for more "advanced" students
+      - Roadmap for ongoing learning
+
+## Learning Objectives 
+
+From the
+[IRB](https://github.com/chendaniely/dissertation-irb/tree/master/irb-20-537-data_science_workshops)
+:
+
+- [x] 1. Name the features of a tidy/clean dataset
+- [x] 2. Transform data for analysis
+- [x] 3. Identify when spreadsheets are useful
+- [x] 4. Assess when a task should not be done in a spreadsheet software
+- [x] 5. Break down data processing into smaller individual (and more manageable) steps
+- [x] 6. Construct a plot and table for exploratory data analysis
+- [x] 7. Build a data processing pipeline that can be used in multiple programs
+- [x] 8. Calculate, interpret, and communicate an appropriate statistical analysis of the data
+
+The checkbox indicates the LO is in one of the first 4 modules.
+
+## Module 1: Introduction to Spreadsheets
+
+Working with data stored in spreadsheets and identifying when spreadsheets are useful and what a "clean" spreadsheet looks like.
+
+Adapted and inspired by the
+[Data Carpentry spreadsheet lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/)
+
+### Module Learning Objectives
+
+3. Identify when spreadsheets are useful
+4. Assess when a task should not be done in a spreadsheet software
+
+### Exercise
+
+## Module 2: Loading data into R/Python
+
+Loading up a dataset and seeing what it looks like within R/Python. Selecting columns, filtering rows, and looking at grouped aggregate statistics.
+
+### Module Learning Objectives
+
+7. Build a data processing pipeline that can be used in multiple programs
+
+### Assignments
+
+
+## Module 3: Tidying and cleaning data in R/Python
+
+Understanding the ways data can be stored and processing it so it is more amenable for data analysis.
+
+Wickham, Hadley, Tidy data, September 2014, Journal of statistical software 14(10), DOI: 10.18637/jss.v059.i10, https://vita.had.co.nz/papers/tidy-data.pdf
+
+### Module Learning Objectives
+
+1. Name the features of a tidy/clean dataset
+2. Transform data for analysis
+
+### Assignments
+
+## Module 4: Visualizing and Analyzing Data
+
+Create figures and looking at basic statistics.
+Using previously filtered and tidied data to create visualizations and analysis.
+
+### Module Learning Objectives
+
+5. Break down data processing into smaller individual (and more manageable) steps
+6. Construct a plot and table for exploratory data analysis
+8. Calculate, interpret, and communicate an appropriate statistical analysis of the data
+
+### Assignments
+
+------------------------------------------------------------------------------
+
+## Module 5: Combining Data
+
+## Module 6: Missing Values
+
+## Module 7: Applying Functions
+
+## Module 8: 
