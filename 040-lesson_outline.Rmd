@@ -55,6 +55,16 @@ Loading up a dataset and seeing what it looks like within R/Python. Selecting co
 
 7. Build a data processing pipeline that can be used in multiple programs
 
+Not in the IRB LOs:
+
+- Look at various subsets and aggregates of data
+- Load libraries
+- Use functions from a library
+- Know about the `dataframe` object
+    - Python: methods and attributes
+- Selecting columns and filtering data
+- Groupby aggregates
+
 ### Assignments
 
 
@@ -67,7 +77,16 @@ Wickham, Hadley, Tidy data, September 2014, Journal of statistical software 14(1
 ### Module Learning Objectives
 
 1. Name the features of a tidy/clean dataset
-2. Transform data for analysis
+    - Every column represents a variable
+    - Every row represents an observation
+3. Transform data for analysis
+    - R: `pivot_longer` / `pivot_wider`
+    - Python: `melt` / `pivot` / `pivot_table`
+        - Basic string manipulation methods in Python
+
+Not in the IRB LOs:
+
+- Creating new columns or replacing existing columns in a `dataframe`
 
 ### Assignments
 
@@ -82,14 +101,35 @@ Using previously filtered and tidied data to create visualizations and analysis.
 6. Construct a plot and table for exploratory data analysis
 8. Calculate, interpret, and communicate an appropriate statistical analysis of the data
 
+Not in the IRB LOs:
+
+- Load a previously cleaned dataset
+- Plotting
+    - R: `ggplot2`
+    - Python: `seaborn`
+    - Using columns for axis values
+    - Categorical columns for colours/shapes and facets
+- Statistical models:
+    - Linear regression
+    - Logistic regression (probably only have time for this)
+    - Survival analysis
+
 ### Assignments
 
 ------------------------------------------------------------------------------
 
 ## Module 5: Combining Data
 
+Concatenating and merging (i.e., joining) datasets.
+
 ## Module 6: Missing Values
+
+Processing missing values by dropping in a value, filling in a value, or interpolating.
 
 ## Module 7: Applying Functions
 
-## Module 8: 
+Writing a function and how to apply them to a dataset (without loops)
+
+## Module 8: Strings
+
+Processing and working with string data.
