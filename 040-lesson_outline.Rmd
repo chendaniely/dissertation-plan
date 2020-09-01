@@ -45,11 +45,113 @@ Adapted and inspired by the
 3. Identify when spreadsheets are useful
 4. Assess when a task should not be done in a spreadsheet software
 
-### Exercise
+### Exercise 1
+
+You are one of the researchers assigned to a
+pharmacokinetics study of a phase 3 clinical trial for
+Hepatitis C.
+You have 3 patients who need to have their blood drawn and various vitals recorded:
+
+1. **Gemma Dunn**: Blood drawn at **8am**; Heart rate **65bpm**; Respiratory rate: **12bpm**; Blood pressure **128/78 mmHg**; Pulse Ox **98%**; Temperature **96.8F**
+2. **Priscilla Holding**: Blood drawn at **8:20am**; Heart rate **75bpm**; Respiratory rate: **18bpm**; Blood pressure **130/85 mmHg**; Pulse Ox **95%**; Temperature **97.0F**
+3. **Aniya Warner**:  Blood drawn at **8:40am**; Heart rate **63bpm**; Respiratory rate: **13bpm**; Blood pressure **115/73 mmHg**; Pulse Ox **98%**; Temperature **96.5F**
+
+How would you input these values into a spreadsheet?
+
+#### Examples student solutions:
+
+##### Input values without units
+
+Units might be understood and assumed
+
+| Name              | Time | Blood Pressure | Heart Rate | Respiratory Rate | Pulse Ox | Temperature |
+|-------------------|------|----------------|------------|------------------|----------|-------------|
+| Gemma Dunn        | 8:00 | 128/78         | 65         | 12               | 98       | 96.8        |
+| Priscilla Holding | 8:20 | 130/85         | 75         | 18               | 95       | 97.0        |
+| Aniya Warner      | 8:40 | 115/73         | 63         | 13               | 98       | 96.5        |
+
+##### Add units to values
+
+| Name              | Time   | Blood Pressure | Heart Rate | Respiratory Rate | Pulse Ox | Temperature |
+|-------------------|--------|----------------|------------|------------------|----------|-------------|
+| Gemma Dunn        | 8:00am | 128/78         | 65         | 12               | 98%      | 96.8F       |
+| Priscilla Holding | 8:20am | 130/85         | 75         | 18               | 95%      | 97.0F       |
+| Aniya Warner      | 8:40am | 115/73         | 63         | 13               | 98%      | 96.5F       |
+
+##### Split names into 2 columns
+
+| First Name | Last Name | Time   | Blood Pressure | Heart Rate | Respiratory Rate | Pulse Ox | Temperature |
+|------------|-----------|--------|----------------|------------|------------------|----------|-------------|
+| Gemma      | Dunn      | 8:00am | 128/78         | 65         | 12               | 98       | 96.8F       |
+| Priscilla  | Holding   | 8:20am | 130/85         | 75         | 18               | 95       | 97.0F       |
+| Aniya      | Warner    | 8:40am | 115/73         | 63         | 13               | 98       | 96.5F       |
+
+##### Placing unit information in the columns
+
+| First Name | Last Name | Time   | Blood Pressure (bpm) | Heart Rate (bpm) | Respiratory Rate (bpm) | Pulse Ox (%) | Temperature (F) |
+|------------|-----------|--------|----------------------|------------------|------------------------|--------------|-----------------|
+| Gemma      | Dunn      | 8:00am | 128/78               | 65               | 12                     | 98           | 96.8F           |
+| Priscilla  | Holding   | 8:20am | 130/85               | 75               | 18                     | 95           | 97.0F           |
+| Aniya      | Warner    | 8:40am | 115/73               | 63               | 13                     | 98           | 96.5F           |
+
+##### More correct
+
+| first_name | last_name | time | diastolic | systolic | heart_rate | respiratory_rate | pulse_ox | temperature | temperature_unit |
+|------------|-----------|------|-----------|----------|------------|------------------|----------|-------------|------------------|
+| Gemma      | Dunn      | 8:00 | 128       | 78       | 65         | 12               | 98       | 96.8        | F                |
+| Priscilla  | Holding   | 8:20 | 130       | 85       | 75         | 18               | 95       | 97.0        | F                |
+| Aniya      | Warner    | 8:40 | 115       | 73       | 63         | 13               | 98       | 96.5        | F                |
+
+### Exercise 2
+
+Now, let's say you performed these tasks multiple times over the course of 72 hours.
+You know at the end of the PK study, you want to be able to look to see if there were any drastic changes to the patient's vitals.
+Here's a sample of more data,
+does knowing what you want to look at
+
+Example additional reading 1:
+
+Taken on same day
+
+1. **Gemma Dunn**: Blood drawn at **8am**; Heart rate **65bpm**; Respiratory rate: **12bpm**; Blood pressure **128/78 mmHg**; Pulse Ox **98%**; Temperature **96.8F**
+2. **Priscilla Holding**: Blood drawn at **8:20am**; Heart rate **75bpm**; Respiratory rate: **18bpm**; Blood pressure **130/85 mmHg**; Pulse Ox **95%**; Temperature **97.0F**
+3. **Aniya Warner**:  Blood drawn at **8:40am**; Heart rate **63bpm**; Respiratory rate: **13bpm**; Blood pressure **115/73 mmHg**; Pulse Ox **98%**; Temperature **96.5F**
+
+Example additional reading 2:
+
+Taken on the next day
+
+1. **Gemma Dunn**: Blood drawn at **8am**; Heart rate **65bpm**; Respiratory rate: **12bpm**; Blood pressure **128/78 mmHg**; Pulse Ox **98%**; Temperature **96.8F**
+2. **Priscilla Holding**: Blood drawn at **8:20am**; Heart rate **75bpm**; Respiratory rate: **18bpm**; Blood pressure **130/85 mmHg**; Pulse Ox **95%**; Temperature **97.0F**
+3. **Aniya Warner**:  Blood drawn at **8:40am**; Heart rate **63bpm**; Respiratory rate: **13bpm**; Blood pressure **115/73 mmHg**; Pulse Ox **98%**; Temperature **96.5F**
+
+#### Objective
+
+Create a dataset from a data collection scenario that will be used as the
+example to identify potential data formatting issues in spreadsheets.
+
+#### Things to watch out for
+
+As the first exercise of the workshop,
+you need to be careful about calling out students and their "wrong" answers.
+Chances are they are already intimidated by a data/programming class,
+and we do not want to add further injury by calling out their responses.
+
+#### How to overcome this
+
+Talk about the set of possible "wrong responses" to introduce
+formatting issues in spreadsheets,
+and have a poll asking if the students' mock spreadsheet data
+had at least one of the mentioned formatting issues.
+Also, this drives the point of spreadsheets are great for manual data collection,
+and as long as there is a **plan** to process the data then it's okay to make
+the data collection part as easy as possible.
+
 
 ## Module 2: Loading data into R/Python
 
 Loading up a dataset and seeing what it looks like within R/Python. Selecting columns, filtering rows, and looking at grouped aggregate statistics.
+
 
 ### Module Learning Objectives
 
