@@ -123,9 +123,42 @@ Taken on the next day
 
 1. **Gemma Dunn**: Blood drawn at **8am**; Heart rate **65bpm**; Respiratory rate: **12bpm**; Blood pressure **128/78 mmHg**; Pulse Ox **98%**; Temperature **96.8F**
 2. **Priscilla Holding**: Blood drawn at **8:20am**; Heart rate **75bpm**; Respiratory rate: **18bpm**; Blood pressure **130/85 mmHg**; Pulse Ox **95%**; Temperature **97.0F**
-3. **Aniya Warner**:  Blood drawn at **8:40am**; Heart rate **63bpm**; Respiratory rate: **13bpm**; Blood pressure **115/73 mmHg**; Pulse Ox **98%**; Temperature **96.5F**
+3. **Aniya Warner**:  Blood drawn at **8:40am**; Heart rate **127bpm**; Respiratory rate: **36bpm**; Blood pressure **115/73 mmHg**; Pulse Ox **98%**; Temperature **96.5F**
 
-#### Objective
+#### Examples student solutions:
+
+General solutions to entering these data points.
+Do they keep everything in a separate file?
+A separate sheet?
+Are they adding rows or are they adding columns?
+
+### Exercise 3
+
+The protocol asks to report an adverse event if any of the patient's vitals
+become abnormally elevated. How do you mark any abnormal observations?
+
+#### Examples student solutions:
+
+##### Color code values
+
+##### Writing an excel conditional check
+
+##### Manually labeling a column(s)
+
+##### Comments of bad columns in a column
+
+### Exercise 4
+
+During the examination you ask the patient if they are feeling any discomfort and
+why they are breathing so heavily,
+and they tell you they were stretching and doing yoga poses to "get the blood moving".
+How do you document this in your data?
+
+#### Examples student solutions:
+
+##### Free text column of "notes"
+
+### Objective
 
 Create a dataset from a data collection scenario that will be used as the
 example to identify potential data formatting issues in spreadsheets.
@@ -148,10 +181,27 @@ and as long as there is a **plan** to process the data then it's okay to make
 the data collection part as easy as possible.
 
 
-## Module 2: Loading data into R/Python
+## Module 2a: Loading data into R/Python
 
-Loading up a dataset and seeing what it looks like within R/Python. Selecting columns, filtering rows, and looking at grouped aggregate statistics.
+Loading up a dataset and seeing what it looks like within R/Python.
+Selecting columns, filtering rows.
+Saving out data.
 
+### Exercise 1: Meet your IDE
+
+Use the IDE (RStudio) to open up the rstudio project and make sure you
+see your files in the files panel.
+Create a new file for your current code
+
+### Exercise 2: Load dataset into variable and look at the full dataset
+
+Load the ``"pk_values.csv"`` data set and assign it to the variable `pk`.
+
+### Exercise 3: Selecting columns
+
+### Exercise 4: Filtering rows
+
+### Exercise 5: Selecting columns and rows
 
 ### Module Learning Objectives
 
@@ -169,6 +219,26 @@ Not in the IRB LOs:
 
 ### Assignments
 
+### Objective
+
+Be able to load and look at different slices of data.
+
+## Module 2b: Creating new values
+
+Creating new columns, and looking at grouped aggregate statistics.
+Saving out calculations.
+
+### Exercise 1: Calculate descriptive statistics on a column
+
+### Exercise 2: Calculate descriptive on filtered observations
+
+### Exercise 3: Group by operations
+
+Calculate the average heart rate for each patient across all the time points.
+
+### Exercise 4: Create a new column that flags whether an observation is bad
+
+Creating new values
 
 ## Module 3: Tidying and cleaning data in R/Python
 
@@ -189,6 +259,12 @@ Wickham, Hadley, Tidy data, September 2014, Journal of statistical software 14(1
 Not in the IRB LOs:
 
 - Creating new columns or replacing existing columns in a `dataframe`
+
+### Exercise 1: Columns contain values not variable
+
+### Exercise 2: Multiple variables stored in a single column
+
+### Exercise 3: Values stored in both rows and columns
 
 ### Assignments
 
