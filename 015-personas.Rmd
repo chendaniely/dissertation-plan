@@ -60,7 +60,7 @@ Definitions (from rstudio learner personas):
 
 ```{r, echo=FALSE, message=FALSE}
 library(magrittr)
-readr::read_tsv(here::here("./tables/personas.tsv")) %>%
+readr::read_tsv(here::here("./tables/personas-rstudio.tsv")) %>%
   dplyr::select(-Example) %>%
   DT::datatable(options = list(
     lengthMenu = -1
@@ -73,10 +73,101 @@ Need: researcher who is domain(expert), stats(novice), programming(expert), data
 
 From rstudio personas:
 
+```{r, echo=FALSE, message=FALSE}
+library(magrittr)
+readr::read_tsv(here::here("./tables/personas-phase_1.tsv")) %>%
+  DT::datatable(options = list(
+    lengthMenu = -1
+  ))
+```
+
 - general background
 - relevant prior knowledge or experience
 - the learner’s perception of their needs
 - any special considerations
+
+## Self-assessment results
+
+The colors from the dendograms need to be matched up with the groups in the bar charts
+
+
+| Group | Dendogram | Bar    | Persona   |
+|-------|-----------|--------|-----------|
+| 1     | cyan      | green  | academic  |
+| 2     | blue      | orange | student   |
+| 3     | red       | purple | expert    |
+| 4     | green     | pink   | clinician |
+
+
+<img src="https://github.com/chendaniely/dissertation-analysis/raw/master/output/persona/dendogram_4.png"
+     alt="Dendogram cut for 4 clusters" />
+
+<img src="https://github.com/chendaniely/dissertation-analysis/raw/master/output/persona/group_descriptives_4/Q2.3.png"
+     alt="What is your current occupation/career stage (select all that apply) bar graph for each of the 4 clusters" />
+
+<img src="https://github.com/chendaniely/dissertation-analysis/raw/master/output/persona/group_descriptives_4/Q3.3.png"
+     alt="How familiar are you with interactive programming languages like Python or R bar graph for each of the 4 clusters" />
+     
+<img src="https://github.com/chendaniely/dissertation-analysis/raw/master/output/persona/group_descriptives_4/Q4.1.png"
+     alt="How familiar are you with Microsoft Excel? bar graph for each of the 4 clusters" />
+
+<img src="https://github.com/chendaniely/dissertation-analysis/raw/master/output/persona/group_descriptives_4/likert.png"
+     alt="Likert table heatmap of counts for each of the 4 clusters" />
+
+### Expert
+
+- general background
+   - Works as a data scienctist or analysist. 
+- relevant prior knowledge or experience
+   - Uses programming languages daily to get their work done. Has created analysies, reports, dashboards, and other data products in the past.
+- the learner’s perception of their needs
+   - Wants more advanced coding, data management, and data pipeline skills.
+   - Quick cheatsheets and reference materials to understand the syntax of how things can be done
+- any special considerations
+   - 
+
+### Clinician
+
+- general background
+   - Works as a medical practitioner.
+- relevant prior knowledge or experience
+   - Keeps up with the literature and medical research, but has done little to no experience in doing medical research.
+   - Mainly uses Excel for non data related tasks (e.g., making lists), or manually inputing data into spreadsheets.
+- the learner’s perception of their needs
+   - Wants to be able to collect and manage data as well as learn about the process behind data analysis to perform own analysis one day.
+   - Hands-on workshops allow them to block off time in their work schedule and focus learning and practicing new topics
+   - Slides and reference materials to review after the workshop is over
+- any special considerations
+
+### Academic
+
+- general background
+   - Academic researcher in the biomedical sciences.
+- relevant prior knowledge or experience
+   - May have taken a programming class in the past.
+   - Works with data and performs analysis for research.
+   - Mainly uses GUI programs or Excel for data collection and analysis.
+- the learner’s perception of their needs
+   - Wants to be able to manage data better
+   - Code pipelines integrating Excel workflows
+   - Materials that be be used as a reference or read through for more details after the workshop
+- any special considerations
+
+### Student
+
+- general background
+   - Current or recently graduated student.
+- relevant prior knowledge or experience
+   - Have taken classes with programming and/or data analysis related projects.
+   - Knows about how data can be formatted and transformed for various needs.
+   - Can usually figure out how to do something, even if it means a lot of Googling and struggling.
+- the learner’s perception of their needs
+   - Wants reference materials, with good sets of examples to apply to their own questions.
+- any special considerations
+
+
+
+## Pre self-assessment personas
 
 ### Academic
 
